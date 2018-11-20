@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewComplaint">
+
+    <TextView
+        android:id="@+id/displayID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text="ComplaintID" />
+
+    <TextView
+        android:id="@+id/displaydate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text="ComplaintDate" />
+
+    <TextView
+        android:id="@+id/displaycomplainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text="Complainer" />
+
+    <TextView
+        android:id="@+id/displaysupervisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text="Supervisor" />
+
+    <TextView
+        android:id="@+id/displayworker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text="Worker" />
+    <TextView
+        android:id="@+id/displaystatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text="Not Assigned" />
+</LinearLayout>

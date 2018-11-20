@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="@string/user"-->
+        <!--android:textSize="30sp"-->
+        <!--android:onClick="userpageactivity"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="@string/supervisor"-->
+        <!--android:textSize="30sp"-->
+        <!--android:onClick="supervisorpageactivity"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="@string/worker"-->
+        <!--android:textSize="30sp"-->
+        <!--android:onClick="workerpageactivity"/>-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:text="Sign In" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_marginTop="20sp"
+         />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

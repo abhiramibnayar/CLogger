@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "829735157841",
+    "firebase_url": "https://clogger-1a818.firebaseio.com",
+    "project_id": "clogger-1a818",
+    "storage_bucket": "clogger-1a818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829735157841:android:0995f36d39b78367",
+        "android_client_info": {
+          "package_name": "com.example.abhirami.clogger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829735157841-82ji09d3l3n9omg83v3o3vkfor05gnfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhirami.clogger",
+            "certificate_hash": "14ad6ebed89d595e4711097e07afaa317aa071d8"
+          }
+        },
+        {
+          "client_id": "829735157841-f1ch7qpta4res11km75g5mqobbiu0h4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGvEhRSeSzu1NNFWUKyaRr4bh06MzL6ow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829735157841-f1ch7qpta4res11km75g5mqobbiu0h4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

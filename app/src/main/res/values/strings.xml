@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CLogger</string>
+    <string name="user">User</string>
+    <string name="supervisor">Supervisor</string>
+    <string name="worker">Worker</string>
+    <string name="lognewcomplaint">New Complaint</string>
+    <string name="trackcomplaint">Track Complaint</string>
+    <string name="viewnewcomplaints">New Complaints</string>
+    <string name="assigncomplaints">Assign Complaints</string>
+    <string name="viewallcomplaints">All Complaints</string>
+    <string name="submit">Submit</string>
+</resources>
